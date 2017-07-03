@@ -49,12 +49,19 @@ __MSBandSenseLib__ references:
 - Microsoft Band 1.3
 
 ### License
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+### Contributors
+This project is a collaborative effort by:
+- Information Technologies Institute of Centre for Research and Technology Hellas (CERTH-ITI)
+- Technical University of Madrid (UPM)
+- Maastricht University (UM)
+- Artica Telemedicina (Artica)
 
 ### Disclaimer
 All mentioned product names and brands are property of their respective owners and are used for identification purposes only. Use of these product names and brands does not imply endorsement.
 
-### Example
+### Examples
 The following code snippet demonstrates the use of __SenseLib__ in order to acquire data from Kinect, draw the detected skeletons as well as the text “Person” above each skeleton onto the acquired color image, and display the final color image on screen. It is assumed that the user has created a C# WPF project named `SenseLibTest` and added two buttons (`btnBeginCapture`, `btnStopCapture`) and an image control (`imgDisplay`) to the user interface.
 
 ```c#
