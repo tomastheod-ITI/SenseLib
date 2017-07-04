@@ -37,13 +37,17 @@ The `Utils` namespace offers a plethora of different functionalities such as __d
 The __MSBandSenseLib__ is responsible for acquiring data from the Microsoft band and is distributed separately, because it targets Universal Windows, while __SenseLib__ targets .NET Framework 4.5. Both libraries are compiled for the x64 architecture.
 
 ### Dependencies
-__SenseLib__ references the following libraries:
+__SenseLib__ references or depends upon the following libraries:
 - Emgu CV 3.1.0
 - InTheHand 3.5
 - Kinect 2.0
 - Infer.NET 2.6
 - MongoDB C# Driver 2.4.3
 - ZstdNet 1.0
+- ZenithDLL
+
+__ZenithDLL__ references:
+- OpenCV 3.1.0
 
 __MSBandSenseLib__ references:
 - Microsoft Band 1.3
